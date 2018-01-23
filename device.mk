@@ -18,6 +18,9 @@ DEVICE_PATH := device/sony/kagura/rootdir
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/kagura/overlay
 
+PRODUCT_PACKAGES += \
+    power.msm8996
+
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
