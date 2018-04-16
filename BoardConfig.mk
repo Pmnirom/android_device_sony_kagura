@@ -28,9 +28,9 @@ NXP_CHIP_FW_TYPE := PN547C2
 BOARD_KERNEL_CMDLINE += androidboot.hardware=kagura
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
-TARGET_POWERHAL_VARIANT := voxpopuli
+TARGET_POWERHAL_VARIANT := natrium
 TARGET_USES_INTERACTION_BOOST := true
-include device/voxpopuli/sepolicy/sepolicy.mk
+include device/natrium/sepolicy/sepolicy.mk
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
